@@ -7,10 +7,10 @@ Steps to run the Search widget:
 1. Clone the code from this repository
 2. Run the following commands in order from the command line:
     ```
-    npm install --save-dev gulp-connect
-    ```
-    ```
     npm install gulp
+    ```
+    ```
+    npm install --save-dev gulp-connect
     ```
     ```
     bower install
