@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app="app">
+    <head>
+        <title>CPC Assignment</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' href='bower_components/font-awesome/css/font-awesome.min.css'>
+        <link rel='stylesheet' href='components/search/search.css'>      
+        <script src="bower_components/angular/angular.min.js"></script>
+    </head>
+    <body ng-controller="AppCtrl as vm">
+        <search-widget data="data" search-fields="searchFields" placeholder="placeholderText"></search-widget>
+        <script src="main/app.js"></script>
+        <script src="components/search/search-widget.js"></script>
+    </body>
+</html>

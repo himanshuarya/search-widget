@@ -1,0 +1,68 @@
+$color-input-box-bg:          rgb(64, 68, 92);
+$color-input-box-border:      rgb(48, 45, 76);
+$color-text-input-bg:         rgb(161, 158, 178);
+$color-list-item-light:       rgb(248,248,248);
+$color-list-item-dark:        rgb(233,233,233);
+
+
+.no-margin{
+    margin: 0 !important;
+}
+
+.search-container{
+    .search-bar{
+        position: relative;
+        background-color: $color-input-box-bg;
+        padding: 25px;
+        border: 4px solid $color-input-box-border;
+        border-top: 4px solid #000;
+        border-bottom: 0;
+        input{
+            width: 60%;
+            background-color: $color-input-box-bg;
+            color: #FFF;
+            border: 0;
+            border-bottom: 1px solid $color-text-input-bg;
+            padding-bottom: 10px;
+            font-size: 16px;
+            &:focus{
+               outline-width: 0; 
+            }
+        }
+        .fa-search{
+            color: $color-text-input-bg;
+            padding-right: 10px;
+        }
+    }
+
+    .search-results{
+        width: 100%;
+        position: absolute;
+        padding: 0;
+        margin-top: 0;
+        border: 4px solid $color-input-box-border;
+        border-top: 0;
+        box-sizing: border-box;
+        li{
+            padding: 20px;
+            list-style-type: none;
+            &:nth-child(odd){
+                background-color: $color-list-item-light;            
+            }           
+            &:nth-child(even){
+                background-color: $color-list-item-dark;            
+            }
+        }
+    }   
+
+    .details{
+       padding-right: 20%;
+       display: flex;
+       justify-content: space-between;
+    }
+
+    .no-results{
+        padding: 15px 0 20px 15px;
+        background-color: $color-list-item-light;
+    }
+}

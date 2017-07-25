@@ -1,0 +1,24 @@
+<div class="search-container">
+    <div class="search-bar">
+        <i class="fa fa-search"></i>
+        <input type="text" name="search" ng-model="searchInput" placeholder={{$ctrl.placeholder}} autocomplete="off">
+    </div>
+    <ul class="search-results" ng-if="searchInput">
+        <li ng-repeat="item in searchResults = ($ctrl.data | filter : searchInput : filterData)">
+            <big>{{item.name}}</big>
+            <div class="details">
+                <div>
+                    <i class="fa fa-phone"></i> {{item.number}}&emsp;&emsp;&emsp;
+                    <span>
+                        <b>@</b>
+                    </span>{{item.email}}
+                </div>
+                <div>
+                    <i class="fa fa-file-text"></i> Policy No. {{item.policyNum}}
+                </div>
+            </div>
+        </li>
+        <h4 class="no-results no-margin" ng-hide="searchResults.length">No Results Found!</h4>
+    </ul>
+</div>
+

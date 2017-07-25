@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Ann Liebmann",
+        "number": "+27-61-453-444",
+        "email": "ann.lieb@",
+        "policyNum": "00139383887"
+    },
+    {
+        "name": "Ann Summer",
+        "number": "+27-61-453-555",
+        "email": "ann.summer@",
+        "policyNum": "00139383888"
+    },
+    {
+        "name": "Annabelle Samuel",
+        "number": "+27-61-453-333",
+        "email": "anna.samuel@",
+        "policyNum": "00139383889"
+    },
+    {
+        "name": "Alex Miles",
+        "number": "+27-61-453-222",
+        "email": "alex.miles@",
+        "policyNum": "00139383890"
+    },
+    {
+        "name": "John Smith",
+        "number": "+27-61-453-000",
+        "email": "john.smith@",
+        "policyNum": "00139364565"
+    },
+    {
+        "name": "Mark Ray",
+        "number": "+27-61-453-123",
+        "email": "mark.ray@",
+        "policyNum": "00139645636"
+    },
+    {
+        "name": "Steve Davisson",
+        "number": "+27-61-453-245",
+        "email": "steve.davisson@",
+        "policyNum": "00139568688"
+    },
+    {
+        "name": "Vin Dawson",
+        "number": "+27-61-453-245",
+        "email": "vinn.dawson@",
+        "policyNum": "00139535355"
+    },
+    {
+        "name": "James Murray",
+        "number": "+27-61-453-234",
+        "email": "james.murray@",
+        "policyNum": "00139934504"
+    }           
+]
