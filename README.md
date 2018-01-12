@@ -2,7 +2,7 @@
 
 Prerequisite:
 1. SASS should be installed on your system.
-2. Node version >= 6.6.0 should be installed on your system
+2. Node version >= 4.2.3 should be installed on your system
 
 Steps to run the Search widget:
 1. Clone the code from this repository
